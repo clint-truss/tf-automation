@@ -1,2 +1,2 @@
 # tf-automation
-My own account for exploring terraform automation
+Temporary account to use for evaluation of Terraform automation tooling
