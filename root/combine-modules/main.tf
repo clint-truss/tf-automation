@@ -3,10 +3,10 @@ terraform {
   
   backend "s3" {
     bucket = "test-tf-automation"
-    key    = "terraform/dev/tf-automation/terraform.tfstate"
+    key    = "benching-security-truss-test-tf-state-us-west-2/terraform.tfstate"
     region = "us-west-2"
     encrypt = true
-    dynamodb_table = "terraform-lock"
+    dynamodb_table = "terraform-state-lock"
   }
 }
 
