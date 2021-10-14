@@ -4,9 +4,9 @@ provider "aws" {
 }
 
 module "simple-module-a" {
-  source = "../simple-module-a"
+  source = "../tf-modules/simple-module-a"
 }
 
 module "simple-module-b" {
-  source = "../simple-module-b"
+  source = "../tf-modules/simple-module-b"
 }
