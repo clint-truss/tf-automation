@@ -1,10 +1,10 @@
 
-resource "aws_s3_bucket" "tf_automation_benchling_simple_bucket_uno" {
-  bucket = "benchling-relatively-simple-bucket-uno"
+resource "aws_s3_bucket" "very_simple_bucket" {
+  bucket = "very-simple-bucket"
   acl    = "private"
 }
 
-resource "aws_s3_bucket" "tf_automation_benchling_simple_bucket_duo" {
-  bucket = "benchling-relatively-simple-bucket-duo"
+resource "aws_s3_bucket" "another_simple_bucket" {
+  bucket = "another-simple-bucket"
   acl    = "private"
 }
