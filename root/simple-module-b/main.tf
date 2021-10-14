@@ -1,7 +1,5 @@
-resource "aws_route53_zone" "benchling_test" {
-  name = "benchling.truss.coffee."
-}
-
-resource "aws_route53_zone" "benchling_test_duo" {
-  name = "benchling.duo.truss.coffee."
+resource "aws_ssm_parameter" "spacelift_test" {
+  name  = "spacelift-test"
+  type  = "String"
+  value = "bar"
 }
