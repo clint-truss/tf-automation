@@ -13,3 +13,8 @@ resource "aws_s3_bucket" "thursday_bucket" {
   bucket = "thursday-bucket"
   acl    = "private"
 }
+
+resource "aws_s3_bucket" "clint-test-bucket" {
+  bucket = "clint-test-bucket"
+  acl    = "private"
+}
